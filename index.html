@@ -1,0 +1,88 @@
+<script>
+
+var pass=new Array()
+var t3=""
+var lim=8
+pass[0]="ut7APCjqTVo3vwA"
+pass[1]="B2gtKigAk2hqgav"
+pass[2]="PChS4YLGO1lnj5x"
+pass[3]="9T9DXHGGC9lmTKK"
+pass[4]="8Jjdhdmrxl3o4d2h"
+pass[5]="41Jjdhdmrxl3o4d2"
+
+<script>
+
+var pass=new Array()
+var t3=""
+var lim=1
+pass[0]="mLpdo268etEyM4m"
+pass[1]="LeXjeLOR2v5Bl"
+pass[2]="QnFJHAAYNOPWX5E"
+pass[3]="Z5qzji6VvBjqsrV"
+pass[4]="1pkWAW06xrN6vJOd"
+pass[5]="63pkWAW06xrN6vJO"
+
+<script>
+
+var pass=new Array()
+var t3=""
+var lim=1
+pass[0]="4tsEY8Qp7CJ4l3W"
+pass[1]="5ug3dlv3VXRGM4F"
+pass[2]="y7KlnnPYyYQFvCv"
+pass[3]="zragThlzwL9JyjF"
+pass[4]="12p6Kjt4KuN7Gdls"
+pass[5]="342p6Kjt4KuN7Gdl"
+
+//你可以设置后缀为其它文件格式，默认为.html
+var extension=".html"
+var enablelocking=0
+var numletter="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var temp3=''
+var cur=0
+
+
+function max(which){
+return (pass[Math.ceil(which)+(3&15)].substring(0,1))
+}
+
+function testit(input){
+temp=numletter.indexOf(input)
+var temp2=temp^parseInt(pass[phase1-1+(1|3)].substring(0,2))
+temp2=numletter.substring(temp2,temp2+1)
+return (temp2)
+}
+
+
+function submitentry(){
+t3=''
+verification=document.password1.password2.value
+phase1=Math.ceil(Math.random())-6+(2<<2)
+var indicate=true
+for (i=(1&2);i<window.max(Math.LOG10E);i++)
+t3+=testit(verification.charAt(i))
+for (i=(1&2);i<lim;i++){
+if (t3.charAt(i)!=pass[phase1+Math.round(Math.sin(Math.PI/2)-1)].charAt(i))
+indicate=false
+}
+if (verification.length!=window.max(Math.LOG10E))
+indicate=false
+if (indicate)
+window.location=verification+extension
+else
+alert("密码错误，请再输入!")
+}
+</script>
+
+
+
+<table border="1" cellspacing="0" cellpadding="0" bgcolor="#FFFFBD">
+  <tr>
+    <td width="100%"><form name="password1"><div align="center"><center><p><strong>Enter password: </strong><input
+      type="text" name="password2" size="15"><br>
+      <input type="button" value="Submit" onClick="submitentry()"></p>
+      </center></div>
+    </form>
+    </td>
+  </tr>
+</table>
